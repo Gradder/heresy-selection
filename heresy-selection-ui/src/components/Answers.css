@@ -1,0 +1,73 @@
+.Answers {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    color: white;
+    font-family: Georgia, serif;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    text-align: justify;
+    align-self: center;
+}
+
+.Button {
+    max-width: 325px;
+    cursor: pointer;
+    -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none;
+    margin: 4vmin;
+    color: white;
+    transition: All 0.8s ease;
+    border: none;
+}
+
+.Button:hover {
+    scale:1;
+    transition: 0.7s;
+}
+
+.Button:hover:before {
+}
+
+.Button:after {
+    transform: scale(0.95);
+    transition: 0.7s;
+}
+
+.AnswerImage {
+width: 275px;
+height: 275px;
+background-size: cover;
+border: 2px solid rgb(162 147 114);
+}
+
+.DivForAnswer{
+    transition: transform 0.5s;
+    transition-delay: 0.1s;
+}
+
+.AnswerImage:hover {
+    border: 2px solid white;
+ }
+
+ .AnswerImage:active {
+     border: 2px solid white;
+  }
+
+.DivForAnswer:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.DivForAnswer:active {
+    transform: scale(0.95);
+    transition: 0.5s;
+}
+
+
+.AnswerText{
+    margin-top: 1vmin;
+    font-size:  calc(10px + 1vmin);
+}

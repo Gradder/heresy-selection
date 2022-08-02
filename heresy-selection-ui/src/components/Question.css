@@ -1,0 +1,20 @@
+.Question {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: Georgia, serif;
+    font-size:  calc(5px + 2vmin);
+    text-align: justify;
+    align-self: center;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    margin-bottom: 2vmin;
+}
+
+.Big_Question {
+    color: rgb(162 147 114);
+    font-size:  calc(5px + 5vmin);
+    margin-top:2vmin;
+}

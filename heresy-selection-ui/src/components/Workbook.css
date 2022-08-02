@@ -1,0 +1,23 @@
+@media (max-width: 1199px){
+    .Footer {
+        font-size: 25rem;
+    }
+}
+
+@media (max-width: 991px){
+    .Footer {
+        font-size: 20rem;
+    }
+}
+
+@media (max-width: 767px){
+    .Footer {
+        font-size: 10rem;
+    }
+}
+
+@media (max-width: 575px){
+     .Footer {
+         font-size: 5rem;
+     }
+}

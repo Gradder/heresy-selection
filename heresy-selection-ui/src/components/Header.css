@@ -1,0 +1,29 @@
+.Header {
+  text-align: center;
+  flex-grow:0;
+  align-items:center;
+  display:flex;
+  justify-content:space-between;
+  transition:.3s ease-in-out;
+  padding-left:16px;
+  padding-right:16px;
+  height:56px;
+  background-color:#191919;
+  border-bottom:1px #4f4f4f solid;
+  color:#fff;
+  position:relative;
+  transition:.3s ease-in-out;
+  width:100%;
+  z-index:12;
+  box-sizing:border-box;
+}
+
+.SaintP-logo {
+  height: 4vmin;
+  pointer-events: none;
+  align-items:center;
+  display:flex;
+  justify-content:space-between;
+  margin: 0 auto;
+}
+

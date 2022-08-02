@@ -1,0 +1,22 @@
+.Questioner {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.BackgroundLayer {
+    background-color: rgb(15 15 15/0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.Logo-hh{
+    height: 10vmin;
+    margin-left: auto;
+    margin-right: auto;
+}
+
