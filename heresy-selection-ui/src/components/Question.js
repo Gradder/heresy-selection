@@ -3,10 +3,10 @@ import './Question.css';
 function Question() {
   return (
     <div className="Question">
-      Scans of the battlefield have detected enemy troop movement in an unexpected quarter.
+      Авгур сканеры показывают, что сквозь руины пробираются вражеские юниты, но невозможно распознать их численность.
 
       <div className="Big_Question">
-      Which one will you choose?
+      Что отправите для перехвата?
       </div>
     </div>
   );

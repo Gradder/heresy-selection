@@ -36,3 +36,56 @@ height: 100%;
     bottom: -13.6rem;
     transform: rotate(180deg);
 }
+
+
+@media screen and (max-width: 1200px){
+.TopLeft{
+    left: -0.4rem;
+    top: -0.4rem;
+}
+
+.TopRight{
+    right: -11.4rem;
+    top: -1.4rem;
+    transform: rotate(90deg);
+
+}
+
+.BottomLeft{
+    left: -0.4rem;
+    bottom: -9.3rem;
+    transform: rotate(270deg);
+}
+
+.BottomRight{
+    right: -11.3rem;
+    bottom: -8.4rem;
+    transform: rotate(180deg);
+}
+}
+
+@media screen and (max-width: 600px){
+    .TopLeft{
+        left: -0.4rem;
+        top: -0.4rem;
+    }
+
+    .TopRight{
+        right: -6.4rem;
+        top: -1.4rem;
+        transform: rotate(90deg);
+
+    }
+
+    .BottomLeft{
+        left: -0.4rem;
+        bottom: -4.3rem;
+        transform: rotate(270deg);
+    }
+
+    .BottomRight{
+        right: -6.3rem;
+        bottom: -3.4rem;
+        transform: rotate(180deg);
+    }
+}
