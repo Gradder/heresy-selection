@@ -7,17 +7,77 @@
     justify-content: center;
     margin-top: 5vmin;
     margin-bottom: 5vmin;
-    margin-left: 25%;
-    margin-right: 25%;
+
     border-color: rgb(162 147 114);
-    border-top: 1px  solid  rgb(162 147 114);
     border-bottom: 1px solid  rgb(162 147 114);
     color:  rgb(162 147 114);
 }
 
-.Logo-hh{
-    height: 10vmin;
-    margin-left: auto;
-    margin-right: auto;
+.Planet {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin: 2vmin;
+}
+.Terra {
+    width: 120px;
+    height: 120px;
 }
 
+.Ship{
+    height:40px;
+    width: 80px;
+    background-size: cover;
+    align-self: flex-start;
+}
+
+.ProgressDiv{
+        display: flex;
+        flex-direction: row;
+        width:75%;
+        align-content: space-between;
+        justify-content: center;
+        align-items: center;
+}
+
+.ProgressDivBig{
+        display: flex;
+        flex-direction: column;
+         width:100%;
+         justify-content: space-between;
+         align-items: center;
+         margin-bottom: 2vmin;
+}
+
+@media screen and (max-width: 1200px){
+.Planet {
+    width: 80px;
+    height: 80px;
+}
+.Terra {
+    width: 100px;
+    height: 100px;
+}
+
+.Ship{
+    height:30px;
+    width: 60px;
+    margin-bottom: 1vmin;
+}
+}
+
+@media screen and (max-width: 600px){
+.Planet {
+    width: 50px;
+    height: 50px;
+}
+.Terra {
+    width: 60px;
+    height: 60px;
+}
+.Ship{
+    height:30px;
+    width: 60px;
+        margin-bottom: 2vmin;
+}
+}
